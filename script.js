@@ -1,23 +1,3 @@
-HTTP / 2 200 OK
-Server: Apple
-Date: Fri, 14 Apr 2023 22: 15: 40 GMT
-Content - Type: application / javascript
-Content - Length: 81114
-Set - Cookie: srv_id = 3 d4ab7839f18072147522e28fe540966;
-expires = Fri, 14 - Apr - 23 23: 15: 40 GMT;
-domain = .apple.com;
-path = /; HttpOnly; secure
-Last - Modified: Thu, 28 Oct 2021 04: 47: 06 GMT
-Accept - Ranges: bytes
-Etag: "081a1dbb6cbd71:0"
-Vary: Accept - Encoding
-Strict - Transport - Security: max - age = 31536000;
-includeSubdomains
-X - Frame - Options: SAMEORIGIN
-X - Content - Type - Options: nosniff
-X - Xss - Protection: 1;
-mode = block
-
 "use strict";
 angular.module("awcApp", ["ngAnimate", "ngCookies", "ngResource", "ngRoute", "ngSanitize", "ngTouch", "mm.foundation", "apriso.framework"]).config(["$routeProvider", "$httpProvider", "localizeServiceProvider", "$provide", function(a, b, c, d) {
 	var e = function() {
